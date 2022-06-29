@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html lang = "en"> 
+    <head>
+
+             <!--Html meta data-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+           <!--Bootstrap Css version 5.2.0-->
+         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"> 
+         
+           <!--My Custom Css called from an external file called: customcss -->
+        <link rel="stylesheet" href="customcss.css"></link>
+        
+           <!--Bootstrap js  & popperjs version 5.2.0 -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script> 
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+
+          <!--My Custom Javascript called from an external file called: customjs -->
+        <script type="text/javascript" src="customjs.js"></script>
+         
+          <!-- Tittle of the page-->
+        <title>Greetings Message Page</title>
+
+    </head> <!--end_head-tag-->
+
+    <!--body-->
+    <body>     
+      <nav class="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img class="nav-img" src="img/hi-img.png"class="d-inline-block align-text-top"" alt="" width="32" height="30">
+            Greetings & Good Tidings
+          </a>
+        </div>
+      </nav>
+
+        <!-- <H1 id="hello-page" style = "text-align:center ; font-size: 30px; font-weight: bold; color: #8E44AD ">Greetings & Good Tidings</H1> --> 
+        
+        <!--carousel-->
+  <section class="carousel-section">    
+    <div class="container-fluid padding" style="margin-top: 0.2em; width: 100%; height: 70%;">
+      <div id="carouselDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner mx-auto padding" style="width: 90%">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="img/valenciaartsandsciences.jpg" class="d-block img-fluid rounded padding" alt="...">
+            <div class="carousel-caption d-none d-md-block"> 
+              <!--card-div-->
+              <div class="card-fluid rounded text-bg-primary mb-3 mx-auto padding" style="max-width: 28rem;">
+                <div class="card-header">City of Arts & Sciences</div>
+                <div class="card-body">
+                  <p class="card-text">View of Valencia's City of Arts & Sciences, Spain.</p>
+                </div>
+              </div> <!--end_div-card-tag-->
+            </div> 
+          </div>   
+
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="img/sydneyOperahouse.jpg" class="d-block img-fluid rounded" alt="...">
+            <div class="carousel-caption d-none d-md-block text-white">
+              <!--card-div-->
+              <div class="card-fluid rounded text-bg-light mb-3 mx-auto padding" style="max-width: 28rem;">
+                <div class="card-header">Sydney Opera House</div>
+                <div class="card-body">
+                  <p class="card-text">Night View of Sydney's Opera House, Australia.</p>
+                </div>
+              </div> <!--end_div-card-tag-->
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="img/burjkhalifa.jpg" class="d-block img-fluid rounded" alt="..." >
+            <div class="carousel-caption d-none d-md-block">
+            <!--card-div-->
+              <div class="card-fluid mb-3 mx-auto padding rounded text-bg-info" style="max-width: 28rem;">
+                <div class="card-header">Burj Khalifa</div>
+                <div class="card-body">
+                  <p class="card-text">View of The Burj Khalifa in Dubai, UAE.</p>
+                </div>
+              </div> <!--end_div-card-tag-->
+            </div>
+          </div>
+        </div>
+
+        <button class="carousel-control-prev carousel-dark" type="button" data-bs-target="#carouselDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next carousel-dark" type="button" data-bs-target="#carouselDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div> <!--end_carousel-->
+  
+           <!-- button-->
+      <input type="button" id="button-greet" onclick="greetingMsg()" value="Click Here" clickable="true">
+        <hr class="border-danger border-3 opacity-75">
+    </div> <!--end_container-->
+  </section> <!--end_section-->  
+
+    <section class="section-footer">  
+     <footer>
+        <!--card-div-->
+              <div class="card-fluid mx-auto padding rounded text-primary" style="max-width: 30rem;">
+                <div class="card-header">Getting Started With Web App Developements in Html5, CSS & JS</div>
+                <div class="card-body">
+                  <p class="card-text">Created by MjKoncepts, MJ-Coding Session &copy2022</p>
+                </div>
+              </div> <!--end_div-card-tag-->
+      </footer> <!--end_footer-->
+    </section>
+
+  </body> <!--end_body-tag-->
+ 
+
+</html> <!--end_html-tag-->
+

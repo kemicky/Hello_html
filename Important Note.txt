@@ -1,0 +1,18 @@
+
+/* 
+       How to change comments color
+       ----------------------------
+Go to settings -> type "editor.tokenColorCustomizations " -> Edit setting.json file
+Then add the following line of code to the file :
+"editor.tokenColorCustomizations": {
+        
+    "comments": "#FF0000"
+   }
+   And save the changes. 
+
+   location of settings.json file : Library -> Application Support -> Users ->Code -> User -> settings.json
+   
+
+    <h5 class="d-block-title rounded text-center text-light P-3">City of Arts & Sciences</h5>
+            <p class="text-light P-3">View of Valencia City of Arts & Sciences, Valencia, Spain.</p>
+*/
