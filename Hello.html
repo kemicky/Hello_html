@@ -20,6 +20,9 @@
           <!--My Custom Javascript called from an external file called: customjs -->
         <script type="text/javascript" src="customjs.js"></script>
          
+         <!-- JQuery Link -->
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+         
           <!-- Tittle of the page-->
         <title>Greetings Message Page</title>
 
@@ -30,12 +33,21 @@
       <nav class="navbar">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            <img class="nav-img" src="img/hi-img.png"class="d-inline-block align-text-top"" alt="" width="32" height="30">
-            Greetings & Good Tidings
+            <img class="nav-img" src="img/hi-img.png"class="d-inline-block align-text-top" alt="greetings" width="32" height="30"> Greetings & Good Tidings
           </a>
         </div>
       </nav>
 
+  </section class="section-img m-2">
+    <Figure>
+       <!-- button-->
+      <div class="container m-1">
+        <button id="button-greet" onclick="greetingMsg()" type="subit" clickable="true">Click Here</button>
+      </div> <!--end_div-->  
+        <img src="img/hello.gif" class="img-thumbnail mb-2" width="200" height="200" alt="hello, gif">
+    </Figure>
+  </section>
+  
         <!-- <H1 id="hello-page" style = "text-align:center ; font-size: 30px; font-weight: bold; color: #8E44AD ">Greetings & Good Tidings</H1> --> 
         
         <!--carousel-->
@@ -98,10 +110,8 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div> <!--end_carousel-->
-  
-           <!-- button-->
-      <input type="button" id="button-greet" onclick="greetingMsg()" value="Click Here" clickable="true">
-        <hr class="border-danger border-3 opacity-75">
+   
+      <hr class="border-danger border-3 opacity-75">
     </div> <!--end_container-->
   </section> <!--end_section-->  
 
@@ -120,5 +130,6 @@
   </body> <!--end_body-tag-->
  
 
+ 
 </html> <!--end_html-tag-->
 

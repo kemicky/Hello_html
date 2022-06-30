@@ -1,5 +1,6 @@
 body{
-    padding: 0em;
+    margin: 0;
+    padding: 0;
     max-width: 100%;
     max-height: 100%;
 }
@@ -24,9 +25,8 @@ body{
     image-rendering: auto; 
 }
 
-input[type=button] {
-
-    align-content: left;
+#button-greet {
+    align-content:flex-end;
     background-color: #faebd7;
     border: auto solid darkgray;
     border-width: 5px;
@@ -37,7 +37,6 @@ input[type=button] {
     font-size: medium;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 40px 20px;
     padding: auto;
     text-decoration: none;
 }
