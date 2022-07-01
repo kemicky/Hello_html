@@ -64,17 +64,20 @@ $('figure').on('click', function() {
 
  hideimg(); // hide at beginning
 
-  if($ === 'gif') {
-          $img.attr('src', $img.data('alt')).attr('data-alt', $imgSrc);
-      } else {
-          $img.attr('src', $imgAlt).attr('data-alt', $img.data('alt'));
-      }
+function greetingMsg(){
+     hideimg(); // hide at beginning
+
+     $('#button-greet').on('click', function(){
+           // show button on click
+       $('#img-gif').css("display", "block");
+     });
+     
+
+}//end_function
 
 function hideimg() {
      $('#img-gif').css("display", "none");
-}
-
-
+}//end
 
 
 
