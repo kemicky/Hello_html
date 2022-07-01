@@ -1,6 +1,16 @@
 
 function greetingMsg(){
-     alert("Hello World !, Greetings and Bringing You Good Tidings.") ;
+     hideimg(); // hide at beginning
+
+     $('#button-greet').click(function(){
+           // show button on click
+       $('#img-gif').css("display", "block");
+     });
+     
+
+     function hideimg() {
+          $('#img-gif').css("display", "none");
+     }
 }//end_function
 
 
