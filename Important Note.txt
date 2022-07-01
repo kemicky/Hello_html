@@ -84,6 +84,7 @@ function setImageVisible(id, visible) {
     img.style.visibility = (visible ? 'visible' : 'hidden');
 }
 
+
 */
 
 
