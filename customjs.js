@@ -1,37 +1,15 @@
-
-function greetingMsg(){
-    
-     $(document).ready(function () {
-          $('#img-gif').hide();
-          $('#button-hide-greet').attr('disabled', true);
-           $('#button-hide-greet').click(function () {
-           $('#img-gif').hide();
-           $('#button-hide-greet').attr('disabled', true);
-           $('#button-greet').attr('disabled', false);
-
-      });
-
-          $('#button-greet').click(function () {
-              $('#img-gif').show();
-              $('#button-hide-greet').attr('disabled', false);
-              $('#button-greet').attr('disabled', true);
-          });
-     }); 
-
+ function toggle(ele) {
+      var imggif = document.getElementById('imggif');
+          if (imggif.style.display == 'block') {
+               imggif.style.display = 'none';
+  
+              document.getElementById(ele.id).value = 'Click Here';
+          }
+          else {
+               imggif.style.display = 'block';
+              document.getElementById(ele.id).value = 'Close X';
+          }
 }//end_function
 
-/*
-function hidegreetingMsg(){
-   $(document).ready(function () {
-         $('#img-gif').hide();
-              $('#button-hide-greet').attr('disabled', true);
-               $('#button-hide-greet').click(function () {
-               $('#img-gif').hide();
-               $('#button-hide-greet').attr('disabled', true);
-               $('#button-greet').attr('disabled', false);
 
-          });
-     });
 
-}//end_function
-*/

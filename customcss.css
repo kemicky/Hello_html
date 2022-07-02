@@ -44,7 +44,7 @@ body{
 }
 
 #button-greet {
-    float: left;
+    float: right;
     background-color: #faebd7;
     border: auto solid darkgray;
     border-width: 5px;
@@ -60,22 +60,4 @@ body{
 #button-greet:hover {
       background-color: darkcyan;
       color: cornsilk
-}
-#button-hide-greet{
-    float: right;
-    background-color: plum;
-    border: auto solid brown;
-    border-width: 5px;
-    border-radius: 15px;
-    color: darkslateblue;
-    cursor: pointer;
-    font-size: medium;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: auto;
-    text-decoration: none;
-}
-#button-hide-greet:hover {
-    background-color: red;
-    color: whitesmoke;
 }

@@ -1,6 +1,6 @@
 
 /* 
-       How to change comments color
+       Change comments color
        ----------------------------
 Go to settings -> type "editor.tokenColorCustomizations " -> Edit setting.json file
 Then add the following line of code to the file :
@@ -12,10 +12,52 @@ Then add the following line of code to the file :
 
    location of settings.json file : Library -> Application Support -> Users ->Code -> User -> settings.json
    
+     Image with text example.
+     ------------------------
+      <h5 class="d-block-title rounded text-center text-light P-3">City of Arts & Sciences</h5>
+      <p class="text-light P-3">View of Valencia City of Arts & Sciences, Valencia, Spain.</p>
 
-    <h5 class="d-block-title rounded text-center text-light P-3">City of Arts & Sciences</h5>
-            <p class="text-light P-3">View of Valencia City of Arts & Sciences, Valencia, Spain.</p>
 
+    *css for footer jumping in section or body
+    ==========================================
+
+    overflow: hidden !important;
+
+<<<<<<< HEAD
+
+=======
+>>>>>>> 1d494a2bfd6f418b54d087698d99879089edccaa
+*/
+
+/* Javascripts Notes
+
+     function toggle(ele) {
+          var imggif = document.getElementById('imggif');
+          imggif.style.display = imggif.style.display == 'none' ? 'block' : 'none';
+      
+     }
+
+ $(document).ready(function () {
+
+          $('#button-greet').click(function () {
+              $('#img-gif').show();
+              $('#button-hide-greet').attr('disabled', false);
+              $('#button-greet').attr('disabled', true);
+          });
+     }); 
+function hidegreetingMsg(){
+   $(document).ready(function () {
+         $('#img-gif').hide();
+              $('#button-hide-greet').attr('disabled', true);
+               $('#button-hide-greet').click(function () {
+               $('#img-gif').hide();
+               $('#button-hide-greet').attr('disabled', true);
+               $('#button-greet').attr('disabled', false);
+
+          });
+     });
+
+}//end_function
 
 
        Displaying a gif on button click
@@ -80,23 +122,10 @@ function hideimg() {
 }//end
 
 
-
-
 function setImageVisible(id, visible) {
     var img = document.getElementById(id);
     img.style.visibility = (visible ? 'visible' : 'hidden');
-
-    *css for footer jumping in section or body
-
-    overflow: hidden !important;
-}
-
-<<<<<<< HEAD
-
-=======
->>>>>>> 1d494a2bfd6f418b54d087698d99879089edccaa
 */
-
 
 
 
