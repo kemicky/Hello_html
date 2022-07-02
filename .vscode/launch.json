@@ -8,8 +8,8 @@
         {
             "type": "pwa-chrome",
             "request": "launch",
-            "name": "Open Hello.html",
-            "file": "/Users/kemmymaryomoshoro/Hello_html/Hello.html"
+            "name": "Open index.html",
+            "file": "/Users/kemmymaryomoshoro/Hello_html/index.html"
         }
     ]
 }

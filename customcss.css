@@ -34,13 +34,12 @@ body{
 
 .carousel-section{
     width: 90vw;
-
+    height: 820px;
 }
 .carousel-inner, #img1, #img2, #img3{
      width: 80vw !important;
-     height: 700px;
+     height: 800px;
      image-rendering: auto;
-     image-orientation: auto !important;
 }
 
 #button-greet {
