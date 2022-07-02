@@ -17,6 +17,10 @@ Then add the following line of code to the file :
       <h5 class="d-block-title rounded text-center text-light P-3">City of Arts & Sciences</h5>
       <p class="text-light P-3">View of Valencia City of Arts & Sciences, Valencia, Spain.</p>
 
+      Installing bootstap with npm to your npm node:
+      ----------------------------------------------
+      -> You must have npm installed
+      -> npm install bootstrap@5.2.0-beta1
 
     *css for footer jumping in section or body
     ==========================================
