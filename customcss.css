@@ -34,7 +34,7 @@ body{
 
 .carousel-section{
     width: 90vw;
-    overflow: hidden !important;
+
 }
 .carousel-inner, #img1, #img2, #img3{
      width: 80vw !important;

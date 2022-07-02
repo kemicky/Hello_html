@@ -85,6 +85,10 @@ function hideimg() {
 function setImageVisible(id, visible) {
     var img = document.getElementById(id);
     img.style.visibility = (visible ? 'visible' : 'hidden');
+
+    *css for footer jumping in section or body
+
+    overflow: hidden !important;
 }
 
 <<<<<<< HEAD
